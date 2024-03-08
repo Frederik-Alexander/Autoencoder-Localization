@@ -1,6 +1,4 @@
-Maus
-
-Maus Geo-Locator using an autoencoder
+Geo-Locator using an autoencoder
 
 L2 Norm:
 
