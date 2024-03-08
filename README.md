@@ -1,30 +1,30 @@
-# Maus
-Maus Geo-Locator using an autoencoder 
+Maus
 
-#### L2 Norm: 
-Finds picutes in the Dataset that have similar L2-Norms but are far apart
+Maus Geo-Locator using an autoencoder
 
-#### MausLocatisation:
+L2 Norm:
+
+Finds pictures in the Dataset that have similar L2-Norms but are far apart
+
+MausLocalization:
+
 Main Program for training of NN and generating maze data
 
-#### Mazelive:
+MazeLive:
+
 Customized 3D Maze for data generation and evaluation
 
-## Experiments:
-Contatins the JSON config files for diffrent runs/experiments. 
+Experiments:
 
+Contains the JSON config files for different runs/experiments.
 
+Data:
 
-#### Data:
-Contains the data for the runs 
+Contains the data for the runs
 
-
-
-
-#### Run with the command line:
+Run with the command line:
 
 Latent Sliders:
-
 	python3 -m exp.main_script latent_sliders with model_number="622" device='cpu' experiments/MAZE_TEST/MAZE_coil.json
 
 Train NN
