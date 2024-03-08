@@ -1,0 +1,36 @@
+{
+  "batch_size": 100,
+  "dataset": {
+    "__doc__": "Dataset configuration.",
+    "name": "MAZE",
+    "parameters": {}
+  },
+  "device": "cpu",
+  "early_stopping": 30,
+  "evaluation": {
+    "active": false,
+    "evaluate_on": "test",
+    "k_max": 200,
+    "k_min": 10,
+    "k_step": 10,
+    "online_visualization": false,
+    "save_latents": true,
+    "save_training_latents": false
+  },
+  "learning_rate": 0.0003,
+  "load_model": "False",
+  "load_model_number": "1",
+  "model": {
+    "__doc__": "Model configuration.",
+    "name": "VanillaAutoencoderModel",
+    "parameters": {
+      "autoencoder_model": "DeepAE_COIL"
+    }
+  },
+  "n_epochs": 150,
+  "quiet": true,
+  "seed": 448040131,
+  "torus_iometrie_loss": "True",
+  "val_size": 0.15,
+  "weight_decay": 1e-05
+}

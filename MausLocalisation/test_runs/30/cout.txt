@@ -1,0 +1,2260 @@
+INFO - training - Running command 'train'
+INFO - training - Started run with ID "30"
+Pre-trained model file not found. Training a new model.
+Epoch 0: validation.loss: 0.135 validation.reconstruction_error: 0.135
+Epoch 0: testing.loss: 0.244 testing.reconstruction_error: 0.244
+MSE loss:  0.4314524233341217
+MSE loss:  0.41850918531417847
+MSE loss:  0.38345396518707275
+MSE loss:  0.33886051177978516
+MSE loss:  0.312261164188385
+MSE loss:  0.30792245268821716
+MSE loss:  0.2805928885936737
+MSE loss:  0.2667509913444519
+MSE loss:  0.25909754633903503
+MSE loss:  0.25911232829093933
+MSE loss:  0.26110920310020447
+MSE loss:  0.25732454657554626
+Epoch 1: training.loss: 0.315 +/- 0.062 training.reconstruction_error: 0.315 +/- 0.062
+Epoch 1: validation.loss: 0.080 validation.reconstruction_error: 0.080
+Saving model to test_runs/30/model_state.pth
+Epoch 1: testing.loss: 0.145 testing.reconstruction_error: 0.145
+
+Running : ON_EPOCH_END
+2024-03-08 14:32:53.634 Python[22562:1051187] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to /var/folders/f9/2pffdvw91nsd23s91b7_07000000gn/T/org.python.python.savedState
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+/Users/frederikalexander/My Drive/Computer Science/maus/MausLocalisation/src/visualization.py:67: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  ax.scatter(latents[:, i], latents[:, j], cmap=plt.cm.coolwarm, s=5., alpha=1)
+MSE loss:  0.2270084172487259
+MSE loss:  0.21453814208507538
+MSE loss:  0.19042740762233734
+MSE loss:  0.20357267558574677
+MSE loss:  0.17401796579360962
+MSE loss:  0.18818031251430511
+MSE loss:  0.17137028276920319
+MSE loss:  0.1964220106601715
+MSE loss:  0.18638382852077484
+MSE loss:  0.15133412182331085
+MSE loss:  0.13156279921531677
+MSE loss:  0.14600206911563873
+Epoch 2: training.loss: 0.182 +/- 0.027 training.reconstruction_error: 0.182 +/- 0.027
+Epoch 2: validation.loss: 0.041 validation.reconstruction_error: 0.041
+Saving model to test_runs/30/model_state.pth
+Epoch 2: testing.loss: 0.084 testing.reconstruction_error: 0.084
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.16518841683864594
+MSE loss:  0.11659447848796844
+MSE loss:  0.124479740858078
+MSE loss:  0.13913021981716156
+MSE loss:  0.11064943671226501
+MSE loss:  0.10675779730081558
+MSE loss:  0.11793249845504761
+MSE loss:  0.13940826058387756
+MSE loss:  0.08046326041221619
+MSE loss:  0.11843451112508774
+MSE loss:  0.1048649474978447
+MSE loss:  0.1614774912595749
+Epoch 3: training.loss: 0.124 +/- 0.023 training.reconstruction_error: 0.124 +/- 0.023
+Epoch 3: validation.loss: 0.032 validation.reconstruction_error: 0.032
+Saving model to test_runs/30/model_state.pth
+Epoch 3: testing.loss: 0.087 testing.reconstruction_error: 0.087
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.07530635595321655
+MSE loss:  0.10281901061534882
+MSE loss:  0.08806727826595306
+MSE loss:  0.2127802073955536
+MSE loss:  0.1405368447303772
+MSE loss:  0.11961111426353455
+MSE loss:  0.1103011816740036
+MSE loss:  0.11737823486328125
+MSE loss:  0.08800749480724335
+MSE loss:  0.0645572766661644
+MSE loss:  0.06843902170658112
+MSE loss:  0.13650380074977875
+Epoch 4: training.loss: 0.110 +/- 0.039 training.reconstruction_error: 0.110 +/- 0.039
+Epoch 4: validation.loss: 0.032 validation.reconstruction_error: 0.032
+Epoch 4: testing.loss: 0.077 testing.reconstruction_error: 0.077
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.10850413143634796
+MSE loss:  0.07144898176193237
+MSE loss:  0.10750934481620789
+MSE loss:  0.09085174649953842
+MSE loss:  0.06501895189285278
+MSE loss:  0.08090021461248398
+MSE loss:  0.07678703218698502
+MSE loss:  0.07840609550476074
+MSE loss:  0.06623167544603348
+MSE loss:  0.1250852644443512
+MSE loss:  0.15914849936962128
+MSE loss:  0.06668323278427124
+Epoch 5: training.loss: 0.091 +/- 0.028 training.reconstruction_error: 0.091 +/- 0.028
+Epoch 5: validation.loss: 0.030 validation.reconstruction_error: 0.030
+Saving model to test_runs/30/model_state.pth
+Epoch 5: testing.loss: 0.074 testing.reconstruction_error: 0.074
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.07486807554960251
+MSE loss:  0.05737145245075226
+MSE loss:  0.1086621955037117
+MSE loss:  0.2170492559671402
+MSE loss:  0.06611496955156326
+MSE loss:  0.11169633269309998
+MSE loss:  0.06107776612043381
+MSE loss:  0.06758647412061691
+MSE loss:  0.07364258915185928
+MSE loss:  0.0911770761013031
+MSE loss:  0.13182419538497925
+MSE loss:  0.07428210228681564
+Epoch 6: training.loss: 0.095 +/- 0.043 training.reconstruction_error: 0.095 +/- 0.043
+Epoch 6: validation.loss: 0.028 validation.reconstruction_error: 0.028
+Saving model to test_runs/30/model_state.pth
+Epoch 6: testing.loss: 0.070 testing.reconstruction_error: 0.070
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.09842269867658615
+MSE loss:  0.058743953704833984
+MSE loss:  0.07025053352117538
+MSE loss:  0.0634852945804596
+MSE loss:  0.06558405607938766
+MSE loss:  0.08261430263519287
+MSE loss:  0.06493374705314636
+MSE loss:  0.08337156474590302
+MSE loss:  0.0505145899951458
+MSE loss:  0.09220610558986664
+MSE loss:  0.07048781216144562
+MSE loss:  0.0655013844370842
+Epoch 7: training.loss: 0.072 +/- 0.014 training.reconstruction_error: 0.072 +/- 0.014
+Epoch 7: validation.loss: 0.027 validation.reconstruction_error: 0.027
+Saving model to test_runs/30/model_state.pth
+Epoch 7: testing.loss: 0.059 testing.reconstruction_error: 0.059
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.058450229465961456
+MSE loss:  0.0732097253203392
+MSE loss:  0.060393791645765305
+MSE loss:  0.06178498640656471
+MSE loss:  0.08881288021802902
+MSE loss:  0.06911040097475052
+MSE loss:  0.06292661279439926
+MSE loss:  0.06647419929504395
+MSE loss:  0.05809086933732033
+MSE loss:  0.061787594109773636
+MSE loss:  0.09853983670473099
+MSE loss:  0.06351020187139511
+Epoch 8: training.loss: 0.069 +/- 0.012 training.reconstruction_error: 0.069 +/- 0.012
+Epoch 8: validation.loss: 0.027 validation.reconstruction_error: 0.027
+Saving model to test_runs/30/model_state.pth
+Epoch 8: testing.loss: 0.059 testing.reconstruction_error: 0.059
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05913479998707771
+MSE loss:  0.09886977821588516
+MSE loss:  0.10402578115463257
+MSE loss:  0.1197211742401123
+MSE loss:  0.05280205234885216
+MSE loss:  0.08326437324285507
+MSE loss:  0.07989243417978287
+MSE loss:  0.0689597800374031
+MSE loss:  0.060660719871520996
+MSE loss:  0.05548829212784767
+MSE loss:  0.05524522066116333
+MSE loss:  0.05053512379527092
+Epoch 9: training.loss: 0.074 +/- 0.022 training.reconstruction_error: 0.074 +/- 0.022
+Epoch 9: validation.loss: 0.022 validation.reconstruction_error: 0.022
+Saving model to test_runs/30/model_state.pth
+Epoch 9: testing.loss: 0.046 testing.reconstruction_error: 0.046
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0506913997232914
+MSE loss:  0.054423701018095016
+MSE loss:  0.05841277539730072
+MSE loss:  0.053756531327962875
+MSE loss:  0.06332551687955856
+MSE loss:  0.05113041028380394
+MSE loss:  0.05730229616165161
+MSE loss:  0.08708831667900085
+MSE loss:  0.04993897303938866
+MSE loss:  0.04985359311103821
+MSE loss:  0.0390525683760643
+MSE loss:  0.0480472557246685
+Epoch 10: training.loss: 0.055 +/- 0.011 training.reconstruction_error: 0.055 +/- 0.011
+Epoch 10: validation.loss: 0.018 validation.reconstruction_error: 0.018
+Saving model to test_runs/30/model_state.pth
+Epoch 10: testing.loss: 0.042 testing.reconstruction_error: 0.042
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.042447902262210846
+MSE loss:  0.06166544556617737
+MSE loss:  0.09461794793605804
+MSE loss:  0.04982650279998779
+MSE loss:  0.0545351468026638
+MSE loss:  0.04706551507115364
+MSE loss:  0.09476938843727112
+MSE loss:  0.04180937260389328
+MSE loss:  0.053824614733457565
+MSE loss:  0.0609721764922142
+MSE loss:  0.044126514345407486
+MSE loss:  0.07481556385755539
+Epoch 11: training.loss: 0.060 +/- 0.018 training.reconstruction_error: 0.060 +/- 0.018
+Epoch 11: validation.loss: 0.020 validation.reconstruction_error: 0.020
+Epoch 11: testing.loss: 0.049 testing.reconstruction_error: 0.049
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0468401163816452
+MSE loss:  0.06515705585479736
+MSE loss:  0.043770842254161835
+MSE loss:  0.07133286446332932
+MSE loss:  0.0515732578933239
+MSE loss:  0.04905461147427559
+MSE loss:  0.06806690990924835
+MSE loss:  0.0521545335650444
+MSE loss:  0.05640949308872223
+MSE loss:  0.061765462160110474
+MSE loss:  0.047753579914569855
+MSE loss:  0.04721624776721001
+Epoch 12: training.loss: 0.055 +/- 0.009 training.reconstruction_error: 0.055 +/- 0.009
+Epoch 12: validation.loss: 0.019 validation.reconstruction_error: 0.019
+Epoch 12: testing.loss: 0.045 testing.reconstruction_error: 0.045
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.043821170926094055
+MSE loss:  0.0696651041507721
+MSE loss:  0.052461959421634674
+MSE loss:  0.06796236336231232
+MSE loss:  0.04189459607005119
+MSE loss:  0.1943863481283188
+MSE loss:  0.0628427192568779
+MSE loss:  0.04955912381410599
+MSE loss:  0.04278925433754921
+MSE loss:  0.05844670534133911
+MSE loss:  0.0755143016576767
+MSE loss:  0.060034479945898056
+Epoch 13: training.loss: 0.068 +/- 0.039 training.reconstruction_error: 0.068 +/- 0.039
+Epoch 13: validation.loss: 0.019 validation.reconstruction_error: 0.019
+Epoch 13: testing.loss: 0.052 testing.reconstruction_error: 0.052
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.06333217024803162
+MSE loss:  0.04481225833296776
+MSE loss:  0.09541179239749908
+MSE loss:  0.04862336441874504
+MSE loss:  0.04098977521061897
+MSE loss:  0.0936661809682846
+MSE loss:  0.04499736800789833
+MSE loss:  0.12143766134977341
+MSE loss:  0.05886514112353325
+MSE loss:  0.06781371682882309
+MSE loss:  0.05527425929903984
+MSE loss:  0.05553513765335083
+Epoch 14: training.loss: 0.066 +/- 0.024 training.reconstruction_error: 0.066 +/- 0.024
+Epoch 14: validation.loss: 0.018 validation.reconstruction_error: 0.018
+Saving model to test_runs/30/model_state.pth
+Epoch 14: testing.loss: 0.059 testing.reconstruction_error: 0.059
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05966424196958542
+MSE loss:  0.055553533136844635
+MSE loss:  0.04659203067421913
+MSE loss:  0.0646834596991539
+MSE loss:  0.05119852349162102
+MSE loss:  0.06378412246704102
+MSE loss:  0.043392691761255264
+MSE loss:  0.059944622218608856
+MSE loss:  0.052650030702352524
+MSE loss:  0.08464653044939041
+MSE loss:  0.05413644015789032
+MSE loss:  0.05428779497742653
+Epoch 15: training.loss: 0.058 +/- 0.010 training.reconstruction_error: 0.058 +/- 0.010
+Epoch 15: validation.loss: 0.018 validation.reconstruction_error: 0.018
+Saving model to test_runs/30/model_state.pth
+Epoch 15: testing.loss: 0.056 testing.reconstruction_error: 0.056
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05069061741232872
+MSE loss:  0.04384371265769005
+MSE loss:  0.04230542480945587
+MSE loss:  0.05617032200098038
+MSE loss:  0.06378173828125
+MSE loss:  0.04540140926837921
+MSE loss:  0.058987535536289215
+MSE loss:  0.04333900660276413
+MSE loss:  0.06617404520511627
+MSE loss:  0.05887596309185028
+MSE loss:  0.0672505795955658
+MSE loss:  0.08435260504484177
+Epoch 16: training.loss: 0.057 +/- 0.012 training.reconstruction_error: 0.057 +/- 0.012
+Epoch 16: validation.loss: 0.017 validation.reconstruction_error: 0.017
+Saving model to test_runs/30/model_state.pth
+Epoch 16: testing.loss: 0.041 testing.reconstruction_error: 0.041
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0437537245452404
+MSE loss:  0.046905308961868286
+MSE loss:  0.03896261006593704
+MSE loss:  0.05862431228160858
+MSE loss:  0.06051816791296005
+MSE loss:  0.0512143112719059
+MSE loss:  0.04290103539824486
+MSE loss:  0.04560896381735802
+MSE loss:  0.040498990565538406
+MSE loss:  0.04396060109138489
+MSE loss:  0.10070464760065079
+MSE loss:  0.04471791163086891
+Epoch 17: training.loss: 0.052 +/- 0.016 training.reconstruction_error: 0.052 +/- 0.016
+Epoch 17: validation.loss: 0.016 validation.reconstruction_error: 0.016
+Saving model to test_runs/30/model_state.pth
+Epoch 17: testing.loss: 0.037 testing.reconstruction_error: 0.037
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.046089816838502884
+MSE loss:  0.04567953571677208
+MSE loss:  0.05049418658018112
+MSE loss:  0.044662754982709885
+MSE loss:  0.039216384291648865
+MSE loss:  0.03993719816207886
+MSE loss:  0.03464480862021446
+MSE loss:  0.043244265019893646
+MSE loss:  0.04158506542444229
+MSE loss:  0.04058028385043144
+MSE loss:  0.04643375799059868
+MSE loss:  0.039253003895282745
+Epoch 18: training.loss: 0.043 +/- 0.004 training.reconstruction_error: 0.043 +/- 0.004
+Epoch 18: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Saving model to test_runs/30/model_state.pth
+Epoch 18: testing.loss: 0.035 testing.reconstruction_error: 0.035
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04653805494308472
+MSE loss:  0.04117000102996826
+MSE loss:  0.044957488775253296
+MSE loss:  0.036564309149980545
+MSE loss:  0.03757837414741516
+MSE loss:  0.03622356429696083
+MSE loss:  0.03826131671667099
+MSE loss:  0.04479913040995598
+MSE loss:  0.05288069695234299
+MSE loss:  0.035864099860191345
+MSE loss:  0.040897294878959656
+MSE loss:  0.04097902774810791
+Epoch 19: training.loss: 0.041 +/- 0.005 training.reconstruction_error: 0.041 +/- 0.005
+Epoch 19: validation.loss: 0.016 validation.reconstruction_error: 0.016
+Epoch 19: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.044275134801864624
+MSE loss:  0.059300798922777176
+MSE loss:  0.03950633853673935
+MSE loss:  0.06162111833691597
+MSE loss:  0.06308729946613312
+MSE loss:  0.04786183685064316
+MSE loss:  0.03798886388540268
+MSE loss:  0.04852477088570595
+MSE loss:  0.03860093653202057
+MSE loss:  0.05633142590522766
+MSE loss:  0.04898986592888832
+MSE loss:  0.03864561393857002
+Epoch 20: training.loss: 0.049 +/- 0.009 training.reconstruction_error: 0.049 +/- 0.009
+Epoch 20: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Saving model to test_runs/30/model_state.pth
+Epoch 20: testing.loss: 0.033 testing.reconstruction_error: 0.033
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0366489551961422
+MSE loss:  0.061049021780490875
+MSE loss:  0.04438164457678795
+MSE loss:  0.0610569566488266
+MSE loss:  0.06866005063056946
+MSE loss:  0.0342252179980278
+MSE loss:  0.05836110934615135
+MSE loss:  0.04802027344703674
+MSE loss:  0.06572959572076797
+MSE loss:  0.05291387811303139
+MSE loss:  0.043353620916604996
+MSE loss:  0.04838959872722626
+Epoch 21: training.loss: 0.052 +/- 0.011 training.reconstruction_error: 0.052 +/- 0.011
+Epoch 21: validation.loss: 0.017 validation.reconstruction_error: 0.017
+Epoch 21: testing.loss: 0.039 testing.reconstruction_error: 0.039
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05512738600373268
+MSE loss:  0.04506958648562431
+MSE loss:  0.04847705364227295
+MSE loss:  0.03836575150489807
+MSE loss:  0.06501421332359314
+MSE loss:  0.03758767619729042
+MSE loss:  0.05475457385182381
+MSE loss:  0.07727572321891785
+MSE loss:  0.06135372072458267
+MSE loss:  0.061640236526727676
+MSE loss:  0.04085618257522583
+MSE loss:  0.045156121253967285
+Epoch 22: training.loss: 0.053 +/- 0.012 training.reconstruction_error: 0.053 +/- 0.012
+Epoch 22: validation.loss: 0.016 validation.reconstruction_error: 0.016
+Epoch 22: testing.loss: 0.032 testing.reconstruction_error: 0.032
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04388783872127533
+MSE loss:  0.06783010065555573
+MSE loss:  0.06012028828263283
+MSE loss:  0.05600523576140404
+MSE loss:  0.04128263145685196
+MSE loss:  0.06337164342403412
+MSE loss:  0.04457225278019905
+MSE loss:  0.05849311128258705
+MSE loss:  0.047092340886592865
+MSE loss:  0.036642346531152725
+MSE loss:  0.04421249032020569
+MSE loss:  0.058893922716379166
+Epoch 23: training.loss: 0.052 +/- 0.010 training.reconstruction_error: 0.052 +/- 0.010
+Epoch 23: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Epoch 23: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.06118682771921158
+MSE loss:  0.04291711002588272
+MSE loss:  0.03499780222773552
+MSE loss:  0.06078043580055237
+MSE loss:  0.062212783843278885
+MSE loss:  0.03821432217955589
+MSE loss:  0.10520912706851959
+MSE loss:  0.04055902361869812
+MSE loss:  0.058077435940504074
+MSE loss:  0.041967228055000305
+MSE loss:  0.04002940282225609
+MSE loss:  0.06368997693061829
+Epoch 24: training.loss: 0.054 +/- 0.019 training.reconstruction_error: 0.054 +/- 0.019
+Epoch 24: validation.loss: 0.017 validation.reconstruction_error: 0.017
+Epoch 24: testing.loss: 0.041 testing.reconstruction_error: 0.041
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.08167842775583267
+MSE loss:  0.04033646732568741
+MSE loss:  0.04506474360823631
+MSE loss:  0.043778195977211
+MSE loss:  0.07928939908742905
+MSE loss:  0.08423895388841629
+MSE loss:  0.051035717129707336
+MSE loss:  0.05920930206775665
+MSE loss:  0.03834736347198486
+MSE loss:  0.03661011904478073
+MSE loss:  0.04417812451720238
+MSE loss:  0.03686004504561424
+Epoch 25: training.loss: 0.053 +/- 0.017 training.reconstruction_error: 0.053 +/- 0.017
+Epoch 25: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Epoch 25: testing.loss: 0.038 testing.reconstruction_error: 0.038
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04298996180295944
+MSE loss:  0.03966027498245239
+MSE loss:  0.05754951387643814
+MSE loss:  0.05735711380839348
+MSE loss:  0.03532389551401138
+MSE loss:  0.0405435636639595
+MSE loss:  0.056845568120479584
+MSE loss:  0.035986050963401794
+MSE loss:  0.0346573144197464
+MSE loss:  0.05816679075360298
+MSE loss:  0.05349056422710419
+MSE loss:  0.06176963821053505
+Epoch 26: training.loss: 0.048 +/- 0.010 training.reconstruction_error: 0.048 +/- 0.010
+Epoch 26: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Saving model to test_runs/30/model_state.pth
+Epoch 26: testing.loss: 0.036 testing.reconstruction_error: 0.036
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.037324439734220505
+MSE loss:  0.05475128814578056
+MSE loss:  0.04267452284693718
+MSE loss:  0.056011099368333817
+MSE loss:  0.03529038652777672
+MSE loss:  0.03846841678023338
+MSE loss:  0.056042805314064026
+MSE loss:  0.07495474070310593
+MSE loss:  0.04218095541000366
+MSE loss:  0.051693182438611984
+MSE loss:  0.034274760633707047
+MSE loss:  0.03334197774529457
+Epoch 27: training.loss: 0.046 +/- 0.012 training.reconstruction_error: 0.046 +/- 0.012
+Epoch 27: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Saving model to test_runs/30/model_state.pth
+Epoch 27: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04585069417953491
+MSE loss:  0.04059809446334839
+MSE loss:  0.03181660920381546
+MSE loss:  0.039367783814668655
+MSE loss:  0.037627432495355606
+MSE loss:  0.032246991991996765
+MSE loss:  0.04231053218245506
+MSE loss:  0.05593697354197502
+MSE loss:  0.036299608647823334
+MSE loss:  0.058382339775562286
+MSE loss:  0.044003915041685104
+MSE loss:  0.05124589800834656
+Epoch 28: training.loss: 0.043 +/- 0.008 training.reconstruction_error: 0.043 +/- 0.008
+Epoch 28: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Saving model to test_runs/30/model_state.pth
+Epoch 28: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03898327425122261
+MSE loss:  0.07384336739778519
+MSE loss:  0.033813610672950745
+MSE loss:  0.054491788148880005
+MSE loss:  0.033489737659692764
+MSE loss:  0.06087369844317436
+MSE loss:  0.04073693975806236
+MSE loss:  0.04410109668970108
+MSE loss:  0.0340702049434185
+MSE loss:  0.0548907071352005
+MSE loss:  0.05367247760295868
+MSE loss:  0.05283009260892868
+Epoch 29: training.loss: 0.048 +/- 0.012 training.reconstruction_error: 0.048 +/- 0.012
+Epoch 29: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Epoch 29: testing.loss: 0.042 testing.reconstruction_error: 0.042
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03854291886091232
+MSE loss:  0.04027380794286728
+MSE loss:  0.033280063420534134
+MSE loss:  0.0842621922492981
+MSE loss:  0.04820984601974487
+MSE loss:  0.06847193092107773
+MSE loss:  0.05594029277563095
+MSE loss:  0.07122861593961716
+MSE loss:  0.03765677288174629
+MSE loss:  0.06840287894010544
+MSE loss:  0.058106862008571625
+MSE loss:  0.058334071189165115
+Epoch 30: training.loss: 0.055 +/- 0.015 training.reconstruction_error: 0.055 +/- 0.015
+Epoch 30: validation.loss: 0.021 validation.reconstruction_error: 0.021
+Epoch 30: testing.loss: 0.045 testing.reconstruction_error: 0.045
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.07187533378601074
+MSE loss:  0.03955809399485588
+MSE loss:  0.07264082133769989
+MSE loss:  0.041248101741075516
+MSE loss:  0.0762488842010498
+MSE loss:  0.05460524931550026
+MSE loss:  0.05534399673342705
+MSE loss:  0.04210788756608963
+MSE loss:  0.037074312567710876
+MSE loss:  0.04195823520421982
+MSE loss:  0.04484393075108528
+MSE loss:  0.05202031135559082
+Epoch 31: training.loss: 0.052 +/- 0.013 training.reconstruction_error: 0.052 +/- 0.013
+Epoch 31: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Saving model to test_runs/30/model_state.pth
+Epoch 31: testing.loss: 0.036 testing.reconstruction_error: 0.036
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04882145673036575
+MSE loss:  0.038002632558345795
+MSE loss:  0.04958806186914444
+MSE loss:  0.05514310300350189
+MSE loss:  0.04024503007531166
+MSE loss:  0.04291899502277374
+MSE loss:  0.04544767737388611
+MSE loss:  0.028220942243933678
+MSE loss:  0.03756404668092728
+MSE loss:  0.036884646862745285
+MSE loss:  0.04232686012983322
+MSE loss:  0.035389527678489685
+Epoch 32: training.loss: 0.042 +/- 0.007 training.reconstruction_error: 0.042 +/- 0.007
+Epoch 32: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Saving model to test_runs/30/model_state.pth
+Epoch 32: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.037099167704582214
+MSE loss:  0.07103970646858215
+MSE loss:  0.03603843227028847
+MSE loss:  0.0348411500453949
+MSE loss:  0.05261586233973503
+MSE loss:  0.04194942116737366
+MSE loss:  0.03906383365392685
+MSE loss:  0.03440418466925621
+MSE loss:  0.033515360206365585
+MSE loss:  0.03202184662222862
+MSE loss:  0.05819050967693329
+MSE loss:  0.03714754059910774
+Epoch 33: training.loss: 0.042 +/- 0.012 training.reconstruction_error: 0.042 +/- 0.012
+Epoch 33: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 33: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.028841229155659676
+MSE loss:  0.04241428151726723
+MSE loss:  0.036787908524274826
+MSE loss:  0.039612121880054474
+MSE loss:  0.03859201446175575
+MSE loss:  0.03860626369714737
+MSE loss:  0.04689445346593857
+MSE loss:  0.03550323098897934
+MSE loss:  0.04023309424519539
+MSE loss:  0.03909985348582268
+MSE loss:  0.03562089055776596
+MSE loss:  0.03190058469772339
+Epoch 34: training.loss: 0.038 +/- 0.004 training.reconstruction_error: 0.038 +/- 0.004
+Epoch 34: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Saving model to test_runs/30/model_state.pth
+Epoch 34: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05425450578331947
+MSE loss:  0.03892263397574425
+MSE loss:  0.029382823035120964
+MSE loss:  0.03440035507082939
+MSE loss:  0.03898796811699867
+MSE loss:  0.06837763637304306
+MSE loss:  0.060981933027505875
+MSE loss:  0.0579177550971508
+MSE loss:  0.03839541971683502
+MSE loss:  0.05661782622337341
+MSE loss:  0.03923742473125458
+MSE loss:  0.05635737255215645
+Epoch 35: training.loss: 0.048 +/- 0.012 training.reconstruction_error: 0.048 +/- 0.012
+Epoch 35: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Epoch 35: testing.loss: 0.041 testing.reconstruction_error: 0.041
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04972471669316292
+MSE loss:  0.03591388836503029
+MSE loss:  0.04134887829422951
+MSE loss:  0.03764998912811279
+MSE loss:  0.03595691919326782
+MSE loss:  0.058798689395189285
+MSE loss:  0.04235851392149925
+MSE loss:  0.04251910373568535
+MSE loss:  0.05307017266750336
+MSE loss:  0.053361110389232635
+MSE loss:  0.03782004117965698
+MSE loss:  0.03150147572159767
+Epoch 36: training.loss: 0.043 +/- 0.008 training.reconstruction_error: 0.043 +/- 0.008
+Epoch 36: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Epoch 36: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03233298659324646
+MSE loss:  0.042315784841775894
+MSE loss:  0.04151669889688492
+MSE loss:  0.034587349742650986
+MSE loss:  0.03475451096892357
+MSE loss:  0.038506027311086655
+MSE loss:  0.057592906057834625
+MSE loss:  0.040512219071388245
+MSE loss:  0.03716201335191727
+MSE loss:  0.23030230402946472
+MSE loss:  0.045311007648706436
+MSE loss:  0.08172333240509033
+Epoch 37: training.loss: 0.060 +/- 0.053 training.reconstruction_error: 0.060 +/- 0.053
+Epoch 37: validation.loss: 0.019 validation.reconstruction_error: 0.019
+Epoch 37: testing.loss: 0.075 testing.reconstruction_error: 0.075
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.06640351563692093
+MSE loss:  0.04547668620944023
+MSE loss:  0.058682631701231
+MSE loss:  0.06964289397001266
+MSE loss:  0.06964381039142609
+MSE loss:  0.05190213397145271
+MSE loss:  0.05689064785838127
+MSE loss:  0.07674088329076767
+MSE loss:  0.050307318568229675
+MSE loss:  0.058254681527614594
+MSE loss:  0.04306682571768761
+MSE loss:  0.05651678144931793
+Epoch 38: training.loss: 0.059 +/- 0.010 training.reconstruction_error: 0.059 +/- 0.010
+Epoch 38: validation.loss: 0.025 validation.reconstruction_error: 0.025
+Epoch 38: testing.loss: 0.068 testing.reconstruction_error: 0.068
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04629293829202652
+MSE loss:  0.062339674681425095
+MSE loss:  0.0633171945810318
+MSE loss:  0.03910592198371887
+MSE loss:  0.04042823612689972
+MSE loss:  0.0706406757235527
+MSE loss:  0.04717374965548515
+MSE loss:  0.04069559648633003
+MSE loss:  0.038815900683403015
+MSE loss:  0.054005272686481476
+MSE loss:  0.04217780753970146
+MSE loss:  0.04335692524909973
+Epoch 39: training.loss: 0.049 +/- 0.010 training.reconstruction_error: 0.049 +/- 0.010
+Epoch 39: validation.loss: 0.016 validation.reconstruction_error: 0.016
+Epoch 39: testing.loss: 0.043 testing.reconstruction_error: 0.043
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04029232636094093
+MSE loss:  0.05511238053441048
+MSE loss:  0.04532147943973541
+MSE loss:  0.05284642055630684
+MSE loss:  0.050316497683525085
+MSE loss:  0.0336320623755455
+MSE loss:  0.08502642065286636
+MSE loss:  0.039654441177845
+MSE loss:  0.08525443077087402
+MSE loss:  0.07574582099914551
+MSE loss:  0.0390809141099453
+MSE loss:  0.049621887505054474
+Epoch 40: training.loss: 0.054 +/- 0.017 training.reconstruction_error: 0.054 +/- 0.017
+Epoch 40: validation.loss: 0.015 validation.reconstruction_error: 0.015
+Epoch 40: testing.loss: 0.039 testing.reconstruction_error: 0.039
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.05011773481965065
+MSE loss:  0.042684268206357956
+MSE loss:  0.03519057109951973
+MSE loss:  0.046142447739839554
+MSE loss:  0.04377233237028122
+MSE loss:  0.07016697525978088
+MSE loss:  0.03974197059869766
+MSE loss:  0.03641262650489807
+MSE loss:  0.0500226728618145
+MSE loss:  0.08847911655902863
+MSE loss:  0.03266603499650955
+MSE loss:  0.055342864245176315
+Epoch 41: training.loss: 0.049 +/- 0.015 training.reconstruction_error: 0.049 +/- 0.015
+Epoch 41: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Epoch 41: testing.loss: 0.035 testing.reconstruction_error: 0.035
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03317835554480553
+MSE loss:  0.03863106295466423
+MSE loss:  0.03285140544176102
+MSE loss:  0.0389724038541317
+MSE loss:  0.07993965595960617
+MSE loss:  0.04278400540351868
+MSE loss:  0.0577751025557518
+MSE loss:  0.042504336684942245
+MSE loss:  0.05636151507496834
+MSE loss:  0.06414174288511276
+MSE loss:  0.06670605391263962
+MSE loss:  0.03839969262480736
+Epoch 42: training.loss: 0.049 +/- 0.015 training.reconstruction_error: 0.049 +/- 0.015
+Epoch 42: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Epoch 42: testing.loss: 0.038 testing.reconstruction_error: 0.038
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03949853032827377
+MSE loss:  0.0403568334877491
+MSE loss:  0.038022223860025406
+MSE loss:  0.036102294921875
+MSE loss:  0.04041214659810066
+MSE loss:  0.03901708871126175
+MSE loss:  0.04519627243280411
+MSE loss:  0.04473021253943443
+MSE loss:  0.05826240032911301
+MSE loss:  0.03296877071261406
+MSE loss:  0.060632362961769104
+MSE loss:  0.032492708414793015
+Epoch 43: training.loss: 0.042 +/- 0.009 training.reconstruction_error: 0.042 +/- 0.009
+Epoch 43: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 43: testing.loss: 0.031 testing.reconstruction_error: 0.031
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04415640980005264
+MSE loss:  0.036044828593730927
+MSE loss:  0.03598834201693535
+MSE loss:  0.050937455147504807
+MSE loss:  0.037403009831905365
+MSE loss:  0.06301790475845337
+MSE loss:  0.03339028358459473
+MSE loss:  0.039714716374874115
+MSE loss:  0.05428551509976387
+MSE loss:  0.03672381490468979
+MSE loss:  0.0460125207901001
+MSE loss:  0.04100741446018219
+Epoch 44: training.loss: 0.043 +/- 0.009 training.reconstruction_error: 0.043 +/- 0.009
+Epoch 44: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 44: testing.loss: 0.033 testing.reconstruction_error: 0.033
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.056478142738342285
+MSE loss:  0.05749709904193878
+MSE loss:  0.035422805696725845
+MSE loss:  0.05302361026406288
+MSE loss:  0.03357398882508278
+MSE loss:  0.031160803511738777
+MSE loss:  0.03559861332178116
+MSE loss:  0.05025666579604149
+MSE loss:  0.0344640351831913
+MSE loss:  0.04132638871669769
+MSE loss:  0.03409161791205406
+MSE loss:  0.0401717834174633
+Epoch 45: training.loss: 0.042 +/- 0.009 training.reconstruction_error: 0.042 +/- 0.009
+Epoch 45: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 45: testing.loss: 0.031 testing.reconstruction_error: 0.031
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03859121724963188
+MSE loss:  0.05129370838403702
+MSE loss:  0.04011378809809685
+MSE loss:  0.03302840515971184
+MSE loss:  0.05456692352890968
+MSE loss:  0.03313585743308067
+MSE loss:  0.035441868007183075
+MSE loss:  0.03240008279681206
+MSE loss:  0.049191005527973175
+MSE loss:  0.039256565272808075
+MSE loss:  0.033106010407209396
+MSE loss:  0.07336527109146118
+Epoch 46: training.loss: 0.043 +/- 0.012 training.reconstruction_error: 0.043 +/- 0.012
+Epoch 46: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 46: testing.loss: 0.031 testing.reconstruction_error: 0.031
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03333969786763191
+MSE loss:  0.033078376203775406
+MSE loss:  0.03754018619656563
+MSE loss:  0.039860695600509644
+MSE loss:  0.05259975418448448
+MSE loss:  0.033752888441085815
+MSE loss:  0.04053498059511185
+MSE loss:  0.034784622490406036
+MSE loss:  0.040016982704401016
+MSE loss:  0.0337994210422039
+MSE loss:  0.03312159702181816
+MSE loss:  0.0503065250813961
+Epoch 47: training.loss: 0.039 +/- 0.006 training.reconstruction_error: 0.039 +/- 0.006
+Epoch 47: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 47: testing.loss: 0.032 testing.reconstruction_error: 0.032
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03444622829556465
+MSE loss:  0.03341827541589737
+MSE loss:  0.059721335768699646
+MSE loss:  0.031366053968667984
+MSE loss:  0.031929176300764084
+MSE loss:  0.054485104978084564
+MSE loss:  0.03675113245844841
+MSE loss:  0.03146261349320412
+MSE loss:  0.038917217403650284
+MSE loss:  0.03509857505559921
+MSE loss:  0.0425613634288311
+MSE loss:  0.05134349316358566
+Epoch 48: training.loss: 0.040 +/- 0.009 training.reconstruction_error: 0.040 +/- 0.009
+Epoch 48: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 48: testing.loss: 0.030 testing.reconstruction_error: 0.030
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03882868215441704
+MSE loss:  0.03645533695816994
+MSE loss:  0.03637634590268135
+MSE loss:  0.03320198878645897
+MSE loss:  0.04854990169405937
+MSE loss:  0.031981389969587326
+MSE loss:  0.033503446727991104
+MSE loss:  0.050521813333034515
+MSE loss:  0.039724815636873245
+MSE loss:  0.03945321589708328
+MSE loss:  0.05520277097821236
+MSE loss:  0.05381295457482338
+Epoch 49: training.loss: 0.041 +/- 0.008 training.reconstruction_error: 0.041 +/- 0.008
+Epoch 49: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 49: testing.loss: 0.035 testing.reconstruction_error: 0.035
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03434993326663971
+MSE loss:  0.039176277816295624
+MSE loss:  0.04217442497611046
+MSE loss:  0.03875631466507912
+MSE loss:  0.034994132816791534
+MSE loss:  0.03805382549762726
+MSE loss:  0.03567788004875183
+MSE loss:  0.02927655540406704
+MSE loss:  0.05267960950732231
+MSE loss:  0.04193148389458656
+MSE loss:  0.05099612846970558
+MSE loss:  0.051746487617492676
+Epoch 50: training.loss: 0.041 +/- 0.007 training.reconstruction_error: 0.041 +/- 0.007
+Epoch 50: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Saving model to test_runs/30/model_state.pth
+Epoch 50: testing.loss: 0.030 testing.reconstruction_error: 0.030
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.046903833746910095
+MSE loss:  0.03938504680991173
+MSE loss:  0.0326642170548439
+MSE loss:  0.04914778098464012
+MSE loss:  0.061890747398138046
+MSE loss:  0.04130246117711067
+MSE loss:  0.04099830985069275
+MSE loss:  0.033672574907541275
+MSE loss:  0.03405877575278282
+MSE loss:  0.03503802791237831
+MSE loss:  0.056093621999025345
+MSE loss:  0.05372834578156471
+Epoch 51: training.loss: 0.044 +/- 0.009 training.reconstruction_error: 0.044 +/- 0.009
+Epoch 51: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 51: testing.loss: 0.033 testing.reconstruction_error: 0.033
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.032278433442115784
+MSE loss:  0.05224015191197395
+MSE loss:  0.045483458787202835
+MSE loss:  0.07399842143058777
+MSE loss:  0.031611137092113495
+MSE loss:  0.043345432728528976
+MSE loss:  0.05240389704704285
+MSE loss:  0.0348530150949955
+MSE loss:  0.05036181956529617
+MSE loss:  0.040425922721624374
+MSE loss:  0.040759190917015076
+MSE loss:  0.040616609156131744
+Epoch 52: training.loss: 0.045 +/- 0.011 training.reconstruction_error: 0.045 +/- 0.011
+Epoch 52: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Epoch 52: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.051892198622226715
+MSE loss:  0.03246496990323067
+MSE loss:  0.032856233417987823
+MSE loss:  0.03909473493695259
+MSE loss:  0.03344614431262016
+MSE loss:  0.03485579788684845
+MSE loss:  0.046517010778188705
+MSE loss:  0.04926368594169617
+MSE loss:  0.053734779357910156
+MSE loss:  0.058291252702474594
+MSE loss:  0.031513962894678116
+MSE loss:  0.03335507959127426
+Epoch 53: training.loss: 0.041 +/- 0.009 training.reconstruction_error: 0.041 +/- 0.009
+Epoch 53: validation.loss: 0.014 validation.reconstruction_error: 0.014
+Epoch 53: testing.loss: 0.034 testing.reconstruction_error: 0.034
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04860979691147804
+MSE loss:  0.034758880734443665
+MSE loss:  0.0424690917134285
+MSE loss:  0.053207822144031525
+MSE loss:  0.033835891634225845
+MSE loss:  0.03485487401485443
+MSE loss:  0.04142380505800247
+MSE loss:  0.03474482148885727
+MSE loss:  0.035971321165561676
+MSE loss:  0.03266400471329689
+MSE loss:  0.06326201558113098
+MSE loss:  0.040340736508369446
+Epoch 54: training.loss: 0.041 +/- 0.009 training.reconstruction_error: 0.041 +/- 0.009
+Epoch 54: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 54: testing.loss: 0.031 testing.reconstruction_error: 0.031
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.04067497327923775
+MSE loss:  0.03601480647921562
+MSE loss:  0.04169783368706703
+MSE loss:  0.0385265089571476
+MSE loss:  0.042278509587049484
+MSE loss:  0.03277495875954628
+MSE loss:  0.03886530548334122
+MSE loss:  0.03131724148988724
+MSE loss:  0.030338682234287262
+MSE loss:  0.03360148146748543
+MSE loss:  0.035662926733493805
+MSE loss:  0.0276695117354393
+Epoch 55: training.loss: 0.036 +/- 0.005 training.reconstruction_error: 0.036 +/- 0.005
+Epoch 55: validation.loss: 0.013 validation.reconstruction_error: 0.013
+Epoch 55: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03300480172038078
+MSE loss:  0.02950228378176689
+MSE loss:  0.03959563374519348
+MSE loss:  0.03414282575249672
+MSE loss:  0.03128644451498985
+MSE loss:  0.02880505472421646
+MSE loss:  0.03176497295498848
+MSE loss:  0.03152491897344589
+MSE loss:  0.03226413205265999
+MSE loss:  0.028704309836030006
+MSE loss:  0.03406022861599922
+MSE loss:  0.031046098098158836
+Epoch 56: training.loss: 0.032 +/- 0.003 training.reconstruction_error: 0.032 +/- 0.003
+Epoch 56: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Saving model to test_runs/30/model_state.pth
+Epoch 56: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03257248178124428
+MSE loss:  0.029620444402098656
+MSE loss:  0.033190466463565826
+MSE loss:  0.036405034363269806
+MSE loss:  0.03454107046127319
+MSE loss:  0.02895534597337246
+MSE loss:  0.036733534187078476
+MSE loss:  0.03153236210346222
+MSE loss:  0.03080902434885502
+MSE loss:  0.027372071519494057
+MSE loss:  0.02919907495379448
+MSE loss:  0.030757948756217957
+Epoch 57: training.loss: 0.032 +/- 0.003 training.reconstruction_error: 0.032 +/- 0.003
+Epoch 57: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Saving model to test_runs/30/model_state.pth
+Epoch 57: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03767287731170654
+MSE loss:  0.03033451735973358
+MSE loss:  0.031263794749975204
+MSE loss:  0.03097829408943653
+MSE loss:  0.03637434169650078
+MSE loss:  0.033793963491916656
+MSE loss:  0.03025979734957218
+MSE loss:  0.03269585967063904
+MSE loss:  0.02859366685152054
+MSE loss:  0.028597358614206314
+MSE loss:  0.03153923526406288
+MSE loss:  0.03141884505748749
+Epoch 58: training.loss: 0.032 +/- 0.003 training.reconstruction_error: 0.032 +/- 0.003
+Epoch 58: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Saving model to test_runs/30/model_state.pth
+Epoch 58: testing.loss: 0.028 testing.reconstruction_error: 0.028
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.027314020320773125
+MSE loss:  0.031991515308618546
+MSE loss:  0.04075291380286217
+MSE loss:  0.029261169955134392
+MSE loss:  0.030688518658280373
+MSE loss:  0.02644307352602482
+MSE loss:  0.032754745334386826
+MSE loss:  0.02834208495914936
+MSE loss:  0.029985498636960983
+MSE loss:  0.03361924737691879
+MSE loss:  0.02956530824303627
+MSE loss:  0.027004951611161232
+Epoch 59: training.loss: 0.031 +/- 0.004 training.reconstruction_error: 0.031 +/- 0.004
+Epoch 59: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Epoch 59: testing.loss: 0.028 testing.reconstruction_error: 0.028
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.03380509838461876
+MSE loss:  0.029520422220230103
+MSE loss:  0.033969342708587646
+MSE loss:  0.028121035546064377
+MSE loss:  0.027851149439811707
+MSE loss:  0.033313408493995667
+MSE loss:  0.027150742709636688
+MSE loss:  0.027609271928668022
+MSE loss:  0.03193076699972153
+MSE loss:  0.03267200291156769
+MSE loss:  0.03008909896016121
+MSE loss:  0.02649754285812378
+Epoch 60: training.loss: 0.030 +/- 0.003 training.reconstruction_error: 0.030 +/- 0.003
+Epoch 60: validation.loss: 0.012 validation.reconstruction_error: 0.012
+Saving model to test_runs/30/model_state.pth
+Epoch 60: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.028508421033620834
+MSE loss:  0.026177851483225822
+MSE loss:  0.03024991974234581
+MSE loss:  0.02729492448270321
+MSE loss:  0.030620848760008812
+MSE loss:  0.026322104036808014
+MSE loss:  0.028868293389678
+MSE loss:  0.030323965474963188
+MSE loss:  0.02692865952849388
+MSE loss:  0.027209924533963203
+MSE loss:  0.038254424929618835
+MSE loss:  0.034223221242427826
+Epoch 61: training.loss: 0.030 +/- 0.003 training.reconstruction_error: 0.030 +/- 0.003
+Epoch 61: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 61: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.025420822203159332
+MSE loss:  0.02726566605269909
+MSE loss:  0.03130289539694786
+MSE loss:  0.02950158528983593
+MSE loss:  0.026991214603185654
+MSE loss:  0.03127032145857811
+MSE loss:  0.028429511934518814
+MSE loss:  0.0267192330211401
+MSE loss:  0.030513998121023178
+MSE loss:  0.029145129024982452
+MSE loss:  0.02504143677651882
+MSE loss:  0.02836918830871582
+Epoch 62: training.loss: 0.028 +/- 0.002 training.reconstruction_error: 0.028 +/- 0.002
+Epoch 62: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Epoch 62: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.024179482832551003
+MSE loss:  0.030612004920840263
+MSE loss:  0.027651075273752213
+MSE loss:  0.027831103652715683
+MSE loss:  0.024385062977671623
+MSE loss:  0.030329901725053787
+MSE loss:  0.028760744258761406
+MSE loss:  0.026438992470502853
+MSE loss:  0.028720010071992874
+MSE loss:  0.02914332039654255
+MSE loss:  0.02918301336467266
+MSE loss:  0.024991989135742188
+Epoch 63: training.loss: 0.028 +/- 0.002 training.reconstruction_error: 0.028 +/- 0.002
+Epoch 63: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 63: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0277650635689497
+MSE loss:  0.02662639133632183
+MSE loss:  0.02664296142756939
+MSE loss:  0.024797113612294197
+MSE loss:  0.027384977787733078
+MSE loss:  0.030523179098963737
+MSE loss:  0.02767280302941799
+MSE loss:  0.028596118092536926
+MSE loss:  0.02658679150044918
+MSE loss:  0.02676829881966114
+MSE loss:  0.026356494054198265
+MSE loss:  0.02819555625319481
+Epoch 64: training.loss: 0.027 +/- 0.001 training.reconstruction_error: 0.027 +/- 0.001
+Epoch 64: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 64: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.028483308851718903
+MSE loss:  0.02558855339884758
+MSE loss:  0.024652937427163124
+MSE loss:  0.026402080431580544
+MSE loss:  0.024668393656611443
+MSE loss:  0.02592790313065052
+MSE loss:  0.027711156755685806
+MSE loss:  0.026274485513567924
+MSE loss:  0.025727033615112305
+MSE loss:  0.02606552094221115
+MSE loss:  0.029499638825654984
+MSE loss:  0.02987469732761383
+Epoch 65: training.loss: 0.027 +/- 0.002 training.reconstruction_error: 0.027 +/- 0.002
+Epoch 65: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 65: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.030553827062249184
+MSE loss:  0.028531698510050774
+MSE loss:  0.02671494148671627
+MSE loss:  0.02549010142683983
+MSE loss:  0.028234099969267845
+MSE loss:  0.027463722974061966
+MSE loss:  0.032827068120241165
+MSE loss:  0.02721131592988968
+MSE loss:  0.029836025089025497
+MSE loss:  0.029718827456235886
+MSE loss:  0.03377947956323624
+MSE loss:  0.027674224227666855
+Epoch 66: training.loss: 0.029 +/- 0.002 training.reconstruction_error: 0.029 +/- 0.002
+Epoch 66: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Epoch 66: testing.loss: 0.027 testing.reconstruction_error: 0.027
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.026444902643561363
+MSE loss:  0.028499072417616844
+MSE loss:  0.026010926812887192
+MSE loss:  0.02827354706823826
+MSE loss:  0.026298677548766136
+MSE loss:  0.0268096961081028
+MSE loss:  0.028970403596758842
+MSE loss:  0.027174027636647224
+MSE loss:  0.0258030965924263
+MSE loss:  0.026767797768115997
+MSE loss:  0.024478429928421974
+MSE loss:  0.028200311586260796
+Epoch 67: training.loss: 0.027 +/- 0.001 training.reconstruction_error: 0.027 +/- 0.001
+Epoch 67: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 67: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.027353335171937943
+MSE loss:  0.0254210215061903
+MSE loss:  0.025062140077352524
+MSE loss:  0.02588573843240738
+MSE loss:  0.029850492253899574
+MSE loss:  0.027091633528470993
+MSE loss:  0.026877136901021004
+MSE loss:  0.02736888825893402
+MSE loss:  0.023715408518910408
+MSE loss:  0.023343078792095184
+MSE loss:  0.023677034303545952
+MSE loss:  0.02407924085855484
+Epoch 68: training.loss: 0.026 +/- 0.002 training.reconstruction_error: 0.026 +/- 0.002
+Epoch 68: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Saving model to test_runs/30/model_state.pth
+Epoch 68: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.029874464496970177
+MSE loss:  0.02864733338356018
+MSE loss:  0.023662809282541275
+MSE loss:  0.02416153997182846
+MSE loss:  0.02862721122801304
+MSE loss:  0.025855405256152153
+MSE loss:  0.024638643488287926
+MSE loss:  0.024411587044596672
+MSE loss:  0.025264445692300797
+MSE loss:  0.028546880930662155
+MSE loss:  0.027529316022992134
+MSE loss:  0.023499827831983566
+Epoch 69: training.loss: 0.026 +/- 0.002 training.reconstruction_error: 0.026 +/- 0.002
+Epoch 69: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Epoch 69: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.026719070971012115
+MSE loss:  0.026513272896409035
+MSE loss:  0.030028419569134712
+MSE loss:  0.026672780513763428
+MSE loss:  0.027920164167881012
+MSE loss:  0.025159910321235657
+MSE loss:  0.022867761552333832
+MSE loss:  0.022991804406046867
+MSE loss:  0.02365490235388279
+MSE loss:  0.023351069539785385
+MSE loss:  0.027365751564502716
+MSE loss:  0.029341774061322212
+Epoch 70: training.loss: 0.026 +/- 0.002 training.reconstruction_error: 0.026 +/- 0.002
+Epoch 70: validation.loss: 0.011 validation.reconstruction_error: 0.011
+Epoch 70: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.024193119257688522
+MSE loss:  0.026646511629223824
+MSE loss:  0.0238212700933218
+MSE loss:  0.0272543802857399
+MSE loss:  0.023071955889463425
+MSE loss:  0.0234705600887537
+MSE loss:  0.026713266968727112
+MSE loss:  0.024362744763493538
+MSE loss:  0.02353041246533394
+MSE loss:  0.026604561135172844
+MSE loss:  0.024750228971242905
+MSE loss:  0.027965541929006577
+Epoch 71: training.loss: 0.025 +/- 0.002 training.reconstruction_error: 0.025 +/- 0.002
+Epoch 71: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 71: testing.loss: 0.025 testing.reconstruction_error: 0.025
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02406465820968151
+MSE loss:  0.021701272577047348
+MSE loss:  0.022043423727154732
+MSE loss:  0.02328728884458542
+MSE loss:  0.025444919243454933
+MSE loss:  0.02629030868411064
+MSE loss:  0.02530103735625744
+MSE loss:  0.03179564327001572
+MSE loss:  0.02112884819507599
+MSE loss:  0.024630757048726082
+MSE loss:  0.025224722921848297
+MSE loss:  0.02627040259540081
+Epoch 72: training.loss: 0.025 +/- 0.003 training.reconstruction_error: 0.025 +/- 0.003
+Epoch 72: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 72: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.024329474195837975
+MSE loss:  0.02305023744702339
+MSE loss:  0.023234544321894646
+MSE loss:  0.025806844234466553
+MSE loss:  0.022800812497735023
+MSE loss:  0.025280890986323357
+MSE loss:  0.021623866632580757
+MSE loss:  0.024229934439063072
+MSE loss:  0.022219231352210045
+MSE loss:  0.022425003349781036
+MSE loss:  0.026178304105997086
+MSE loss:  0.024603713303804398
+Epoch 73: training.loss: 0.024 +/- 0.001 training.reconstruction_error: 0.024 +/- 0.001
+Epoch 73: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 73: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.024011796340346336
+MSE loss:  0.0258835069835186
+MSE loss:  0.0256231389939785
+MSE loss:  0.02521980181336403
+MSE loss:  0.027220861986279488
+MSE loss:  0.02359786629676819
+MSE loss:  0.024333685636520386
+MSE loss:  0.02281699702143669
+MSE loss:  0.024260075762867928
+MSE loss:  0.024511363357305527
+MSE loss:  0.020964868366718292
+MSE loss:  0.023445915430784225
+Epoch 74: training.loss: 0.024 +/- 0.002 training.reconstruction_error: 0.024 +/- 0.002
+Epoch 74: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 74: testing.loss: 0.025 testing.reconstruction_error: 0.025
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02420157380402088
+MSE loss:  0.02144799940288067
+MSE loss:  0.023719729855656624
+MSE loss:  0.021794909611344337
+MSE loss:  0.022164776921272278
+MSE loss:  0.02421700209379196
+MSE loss:  0.024746261537075043
+MSE loss:  0.029028676450252533
+MSE loss:  0.02185850590467453
+MSE loss:  0.02450425550341606
+MSE loss:  0.023443840444087982
+MSE loss:  0.026044903323054314
+Epoch 75: training.loss: 0.024 +/- 0.002 training.reconstruction_error: 0.024 +/- 0.002
+Epoch 75: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 75: testing.loss: 0.025 testing.reconstruction_error: 0.025
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.023553885519504547
+MSE loss:  0.024277344346046448
+MSE loss:  0.026574376970529556
+MSE loss:  0.025144951418042183
+MSE loss:  0.025958603248000145
+MSE loss:  0.02485629916191101
+MSE loss:  0.022586727514863014
+MSE loss:  0.02389812096953392
+MSE loss:  0.023896953091025352
+MSE loss:  0.024100178852677345
+MSE loss:  0.024331964552402496
+MSE loss:  0.024243265390396118
+Epoch 76: training.loss: 0.024 +/- 0.001 training.reconstruction_error: 0.024 +/- 0.001
+Epoch 76: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 76: testing.loss: 0.026 testing.reconstruction_error: 0.026
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.027751995250582695
+MSE loss:  0.024796100333333015
+MSE loss:  0.025034509599208832
+MSE loss:  0.024201279506087303
+MSE loss:  0.022815784439444542
+MSE loss:  0.021576734259724617
+MSE loss:  0.025017136707901955
+MSE loss:  0.02409489080309868
+MSE loss:  0.02407434768974781
+MSE loss:  0.02491595782339573
+MSE loss:  0.022191695868968964
+MSE loss:  0.021155809983611107
+Epoch 77: training.loss: 0.024 +/- 0.002 training.reconstruction_error: 0.024 +/- 0.002
+Epoch 77: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 77: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.023459699004888535
+MSE loss:  0.025731805711984634
+MSE loss:  0.024856939911842346
+MSE loss:  0.02220645360648632
+MSE loss:  0.02428787387907505
+MSE loss:  0.028376713395118713
+MSE loss:  0.023794472217559814
+MSE loss:  0.02105121687054634
+MSE loss:  0.02327701821923256
+MSE loss:  0.020501958206295967
+MSE loss:  0.02263815328478813
+MSE loss:  0.024283111095428467
+Epoch 78: training.loss: 0.024 +/- 0.002 training.reconstruction_error: 0.024 +/- 0.002
+Epoch 78: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 78: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.023995041847229004
+MSE loss:  0.019367609173059464
+MSE loss:  0.022194920107722282
+MSE loss:  0.0246500913053751
+MSE loss:  0.023688428103923798
+MSE loss:  0.023288490250706673
+MSE loss:  0.024798637256026268
+MSE loss:  0.024484368041157722
+MSE loss:  0.021991193294525146
+MSE loss:  0.024848101660609245
+MSE loss:  0.025120742619037628
+MSE loss:  0.019988609477877617
+Epoch 79: training.loss: 0.023 +/- 0.002 training.reconstruction_error: 0.023 +/- 0.002
+Epoch 79: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 79: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02100585773587227
+MSE loss:  0.02469346672296524
+MSE loss:  0.02267179824411869
+MSE loss:  0.021861042827367783
+MSE loss:  0.022087210789322853
+MSE loss:  0.021530071273446083
+MSE loss:  0.026457281783223152
+MSE loss:  0.026134364306926727
+MSE loss:  0.021361641585826874
+MSE loss:  0.022868502885103226
+MSE loss:  0.02064261958003044
+MSE loss:  0.021578658372163773
+Epoch 80: training.loss: 0.023 +/- 0.002 training.reconstruction_error: 0.023 +/- 0.002
+Epoch 80: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 80: testing.loss: 0.025 testing.reconstruction_error: 0.025
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02328486740589142
+MSE loss:  0.02217765524983406
+MSE loss:  0.021869603544473648
+MSE loss:  0.02532677911221981
+MSE loss:  0.026423394680023193
+MSE loss:  0.022474775090813637
+MSE loss:  0.022106250748038292
+MSE loss:  0.025355609133839607
+MSE loss:  0.023765504360198975
+MSE loss:  0.02510918118059635
+MSE loss:  0.0251938309520483
+MSE loss:  0.02442111074924469
+Epoch 81: training.loss: 0.024 +/- 0.001 training.reconstruction_error: 0.024 +/- 0.001
+Epoch 81: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 81: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0256151482462883
+MSE loss:  0.021422697231173515
+MSE loss:  0.022828692570328712
+MSE loss:  0.023029381409287453
+MSE loss:  0.023781288415193558
+MSE loss:  0.020569058135151863
+MSE loss:  0.023328449577093124
+MSE loss:  0.023013560101389885
+MSE loss:  0.024793706834316254
+MSE loss:  0.020308272913098335
+MSE loss:  0.020682405680418015
+MSE loss:  0.024988846853375435
+Epoch 82: training.loss: 0.023 +/- 0.002 training.reconstruction_error: 0.023 +/- 0.002
+Epoch 82: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 82: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.0209504421800375
+MSE loss:  0.02454712800681591
+MSE loss:  0.022888578474521637
+MSE loss:  0.025513906031847
+MSE loss:  0.02078869193792343
+MSE loss:  0.022984618321061134
+MSE loss:  0.02092629484832287
+MSE loss:  0.02085484378039837
+MSE loss:  0.02589958906173706
+MSE loss:  0.022722380235791206
+MSE loss:  0.022363578900694847
+MSE loss:  0.024404842406511307
+Epoch 83: training.loss: 0.023 +/- 0.002 training.reconstruction_error: 0.023 +/- 0.002
+Epoch 83: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 83: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.020837383344769478
+MSE loss:  0.020403174683451653
+MSE loss:  0.023919308558106422
+MSE loss:  0.019700519740581512
+MSE loss:  0.01948152668774128
+MSE loss:  0.024719109758734703
+MSE loss:  0.021468352526426315
+MSE loss:  0.02214996889233589
+MSE loss:  0.022740330547094345
+MSE loss:  0.020857401192188263
+MSE loss:  0.020826267078518867
+MSE loss:  0.024503426626324654
+Epoch 84: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 84: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Saving model to test_runs/30/model_state.pth
+Epoch 84: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.021318919956684113
+MSE loss:  0.02057565003633499
+MSE loss:  0.021010439842939377
+MSE loss:  0.021409232169389725
+MSE loss:  0.021833034232258797
+MSE loss:  0.021553773432970047
+MSE loss:  0.02619870752096176
+MSE loss:  0.022763513028621674
+MSE loss:  0.019072262570261955
+MSE loss:  0.0226765014231205
+MSE loss:  0.022259261459112167
+MSE loss:  0.022179607301950455
+Epoch 85: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 85: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 85: testing.loss: 0.022 testing.reconstruction_error: 0.022
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02316887117922306
+MSE loss:  0.02049383334815502
+MSE loss:  0.022738508880138397
+MSE loss:  0.023280885070562363
+MSE loss:  0.021162040531635284
+MSE loss:  0.02274194359779358
+MSE loss:  0.02189721167087555
+MSE loss:  0.025011898949742317
+MSE loss:  0.023593442514538765
+MSE loss:  0.020482106134295464
+MSE loss:  0.02161288820207119
+MSE loss:  0.01871747151017189
+Epoch 86: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 86: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 86: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.022514428943395615
+MSE loss:  0.020760171115398407
+MSE loss:  0.02185339853167534
+MSE loss:  0.022165216505527496
+MSE loss:  0.021285302937030792
+MSE loss:  0.02290305681526661
+MSE loss:  0.02062683179974556
+MSE loss:  0.021225739270448685
+MSE loss:  0.02309834025800228
+MSE loss:  0.022311465814709663
+MSE loss:  0.02244795672595501
+MSE loss:  0.021889682859182358
+Epoch 87: training.loss: 0.022 +/- 0.001 training.reconstruction_error: 0.022 +/- 0.001
+Epoch 87: validation.loss: 0.010 validation.reconstruction_error: 0.010
+Epoch 87: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.021431053057312965
+MSE loss:  0.02176998369395733
+MSE loss:  0.022948281839489937
+MSE loss:  0.02349981851875782
+MSE loss:  0.019879542291164398
+MSE loss:  0.022268719971179962
+MSE loss:  0.02167329378426075
+MSE loss:  0.01953253708779812
+MSE loss:  0.019647765904664993
+MSE loss:  0.02092912420630455
+MSE loss:  0.022001421079039574
+MSE loss:  0.021295011043548584
+Epoch 88: training.loss: 0.021 +/- 0.001 training.reconstruction_error: 0.021 +/- 0.001
+Epoch 88: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 88: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.01907620020210743
+MSE loss:  0.023785779252648354
+MSE loss:  0.02274763397872448
+MSE loss:  0.018896369263529778
+MSE loss:  0.02339528128504753
+MSE loss:  0.01930113136768341
+MSE loss:  0.021461911499500275
+MSE loss:  0.023262450471520424
+MSE loss:  0.021824657917022705
+MSE loss:  0.0210626982152462
+MSE loss:  0.023281322792172432
+MSE loss:  0.021541642025113106
+Epoch 89: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 89: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 89: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.024748867377638817
+MSE loss:  0.023022742941975594
+MSE loss:  0.02112208493053913
+MSE loss:  0.019389621913433075
+MSE loss:  0.019711120054125786
+MSE loss:  0.02237822860479355
+MSE loss:  0.02196727879345417
+MSE loss:  0.019725844264030457
+MSE loss:  0.02063879929482937
+MSE loss:  0.019801484420895576
+MSE loss:  0.02113107591867447
+MSE loss:  0.024001961573958397
+Epoch 90: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 90: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 90: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02179986611008644
+MSE loss:  0.022911399602890015
+MSE loss:  0.02060452662408352
+MSE loss:  0.022385433316230774
+MSE loss:  0.021875105798244476
+MSE loss:  0.02156938426196575
+MSE loss:  0.01962481252849102
+MSE loss:  0.020350124686956406
+MSE loss:  0.023680128157138824
+MSE loss:  0.02319560945034027
+MSE loss:  0.02248420938849449
+MSE loss:  0.019446292892098427
+Epoch 91: training.loss: 0.022 +/- 0.001 training.reconstruction_error: 0.022 +/- 0.001
+Epoch 91: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 91: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.023961473256349564
+MSE loss:  0.02019200660288334
+MSE loss:  0.021096674725413322
+MSE loss:  0.019162273034453392
+MSE loss:  0.019731754437088966
+MSE loss:  0.021868396550416946
+MSE loss:  0.019867515191435814
+MSE loss:  0.021347803995013237
+MSE loss:  0.02029053494334221
+MSE loss:  0.02470874786376953
+MSE loss:  0.02353464998304844
+MSE loss:  0.024763362482190132
+Epoch 92: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 92: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 92: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02475082501769066
+MSE loss:  0.020346229895949364
+MSE loss:  0.020683493465185165
+MSE loss:  0.02024725265800953
+MSE loss:  0.021899761632084846
+MSE loss:  0.02301199361681938
+MSE loss:  0.021868932992219925
+MSE loss:  0.02036316879093647
+MSE loss:  0.020199576392769814
+MSE loss:  0.020943017676472664
+MSE loss:  0.023089319467544556
+MSE loss:  0.022060275077819824
+Epoch 93: training.loss: 0.022 +/- 0.001 training.reconstruction_error: 0.022 +/- 0.001
+Epoch 93: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 93: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.018843308091163635
+MSE loss:  0.022413097321987152
+MSE loss:  0.023193851113319397
+MSE loss:  0.023698927834630013
+MSE loss:  0.020006952807307243
+MSE loss:  0.017991894856095314
+MSE loss:  0.024997910484671593
+MSE loss:  0.01876044273376465
+MSE loss:  0.022759919986128807
+MSE loss:  0.02100163884460926
+MSE loss:  0.020102933049201965
+MSE loss:  0.020540762692689896
+Epoch 94: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 94: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Saving model to test_runs/30/model_state.pth
+Epoch 94: testing.loss: 0.022 testing.reconstruction_error: 0.022
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.020015960559248924
+MSE loss:  0.01981954649090767
+MSE loss:  0.01903284713625908
+MSE loss:  0.020612390711903572
+MSE loss:  0.022082701325416565
+MSE loss:  0.020177923142910004
+MSE loss:  0.022622371092438698
+MSE loss:  0.0222488921135664
+MSE loss:  0.02336169220507145
+MSE loss:  0.019266881048679352
+MSE loss:  0.019538534805178642
+MSE loss:  0.018325095996260643
+Epoch 95: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 95: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 95: testing.loss: 0.024 testing.reconstruction_error: 0.024
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.02115287072956562
+MSE loss:  0.019895456731319427
+MSE loss:  0.020672498270869255
+MSE loss:  0.0195647981017828
+MSE loss:  0.021220332011580467
+MSE loss:  0.018261345103383064
+MSE loss:  0.021413080394268036
+MSE loss:  0.02112492546439171
+MSE loss:  0.020364996045827866
+MSE loss:  0.020890012383461
+MSE loss:  0.023811830207705498
+MSE loss:  0.021710097789764404
+Epoch 96: training.loss: 0.021 +/- 0.001 training.reconstruction_error: 0.021 +/- 0.001
+Epoch 96: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 96: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.022269243374466896
+MSE loss:  0.019901124760508537
+MSE loss:  0.01849582977592945
+MSE loss:  0.021801922470331192
+MSE loss:  0.01817607320845127
+MSE loss:  0.01908256858587265
+MSE loss:  0.023092584684491158
+MSE loss:  0.02062605880200863
+MSE loss:  0.02256552129983902
+MSE loss:  0.022990554571151733
+MSE loss:  0.02467944473028183
+MSE loss:  0.02258768118917942
+Epoch 97: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 97: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 97: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.019836436957120895
+MSE loss:  0.020038096234202385
+MSE loss:  0.02284996211528778
+MSE loss:  0.018880143761634827
+MSE loss:  0.018882617354393005
+MSE loss:  0.017813067883253098
+MSE loss:  0.020767852663993835
+MSE loss:  0.02170407585799694
+MSE loss:  0.02048402465879917
+MSE loss:  0.0244411900639534
+MSE loss:  0.02076106332242489
+MSE loss:  0.01997746154665947
+Epoch 98: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 98: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 98: testing.loss: 0.022 testing.reconstruction_error: 0.022
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.022235430777072906
+MSE loss:  0.0228173416107893
+MSE loss:  0.020816368982195854
+MSE loss:  0.020784860476851463
+MSE loss:  0.023092567920684814
+MSE loss:  0.025648722425103188
+MSE loss:  0.022269317880272865
+MSE loss:  0.021181901916861534
+MSE loss:  0.018007934093475342
+MSE loss:  0.0216146819293499
+MSE loss:  0.024017924442887306
+MSE loss:  0.019240856170654297
+Epoch 99: training.loss: 0.022 +/- 0.002 training.reconstruction_error: 0.022 +/- 0.002
+Epoch 99: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 99: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+MSE loss:  0.018298663198947906
+MSE loss:  0.019090011715888977
+MSE loss:  0.0226886086165905
+MSE loss:  0.021412206813693047
+MSE loss:  0.023721424862742424
+MSE loss:  0.021979834884405136
+MSE loss:  0.02093110792338848
+MSE loss:  0.02010992541909218
+MSE loss:  0.01867786981165409
+MSE loss:  0.020509283989667892
+MSE loss:  0.02017442137002945
+MSE loss:  0.019582923501729965
+Epoch 100: training.loss: 0.021 +/- 0.002 training.reconstruction_error: 0.021 +/- 0.002
+Epoch 100: validation.loss: 0.009 validation.reconstruction_error: 0.009
+Epoch 100: testing.loss: 0.023 testing.reconstruction_error: 0.023
+
+Running : ON_EPOCH_END
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+<class 'numpy.ndarray'>
+(86, 64, 64, 3)
+WARNING - matplotlib.image - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Loading model checkpoint prior to evaluation...
+WARNING - matplotlib.legend - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+Loading model checkpoint prior to evaluation...
+INFO - training - Result: {'training.loss': 0.020598023508985836, 'training.reconstruction_error': 0.020598023508985836}
+INFO - training - Completed after 0:52:46

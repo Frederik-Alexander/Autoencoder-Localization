@@ -1,0 +1,108 @@
+{
+  "artifacts": [],
+  "command": "train",
+  "experiment": {
+    "base_dir": "/Users/frederikalexander/My Drive/Computer Science/maus/MausLocalisation/exp",
+    "dependencies": [
+      "kiwisolver==1.4.4",
+      "matplotlib==3.7.1",
+      "numpy==1.24.3",
+      "sacred==0.8.4",
+      "torch==2.1.0"
+    ],
+    "mainfile": "main_script.py",
+    "name": "training",
+    "repositories": [],
+    "sources": [
+      [
+        "__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "callbacks.py",
+        "_sources/callbacks_5f407f4990631598570e402e9dfde361.py"
+      ],
+      [
+        "ingredients/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "ingredients/dataset.py",
+        "_sources/dataset_2134562fd3358ec9053da7853f85174f.py"
+      ],
+      [
+        "ingredients/model.py",
+        "_sources/model_fc5c89c0606a9f1e7603a77ad4a6593c.py"
+      ],
+      [
+        "main_script.py",
+        "_sources/main_script_bc9059cc0267e8487637c9d360961acf.py"
+      ]
+    ]
+  },
+  "heartbeat": "2024-03-08T13:48:02.318350",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
+    "hostname": "Frederiks-MacBook-Pro.local",
+    "os": [
+      "Darwin",
+      "macOS-13.6.1-x86_64-i386-64bit"
+    ],
+    "python_version": "3.11.6"
+  },
+  "meta": {
+    "command": "train",
+    "config_updates": {
+      "device": "cpu"
+    },
+    "named_configs": [
+      "experiments/MAZE_TEST/MAZE_vanilla_ae_with_torus_loss.json"
+    ],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": "test_runs",
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "experiments/MAZE_TEST/MAZE_vanilla_ae_with_torus_loss.json",
+        "device=cpu"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": {
+    "training.loss": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.020598023508985836
+    },
+    "training.reconstruction_error": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.020598023508985836
+    }
+  },
+  "start_time": "2024-03-08T12:55:07.718422",
+  "status": "COMPLETED",
+  "stop_time": "2024-03-08T13:48:02.288123"
+}

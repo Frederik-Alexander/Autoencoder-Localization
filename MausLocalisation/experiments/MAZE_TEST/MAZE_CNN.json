@@ -1,0 +1,28 @@
+{
+    "batch_size": 100,
+    "dataset": {
+      "__doc__": "Dataset configuration.",
+      "name": "MAZE",
+      "parameters": {}
+    },
+    "device": "cuda",
+    "early_stopping": 30,
+    
+    "learning_rate": 0.0003,
+    "model": {
+      "__doc__": "Model configuration.",
+      "name": "VanillaAutoencoderModel",
+      "parameters": {
+        
+        "autoencoder_model": "ConvAE_CIFAR"
+      }
+    },
+    "n_epochs": 2,
+    "quiet": true,
+    "seed": 448040131,
+    "val_size": 0.15,
+    "weight_decay": 1e-05,
+    "torus_iometrie_loss": "True",
+    "load_model": "False",
+    "load_model_number": "566"
+  }
